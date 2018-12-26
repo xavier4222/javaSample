@@ -8,7 +8,7 @@ public class CallingMethodsInSameClass
 	}
 
 	public static void printOne() {
-		System.out.println("Hello World");
+		logger.log("Hello World");
 	}
 
 	public static void printTwo() {
